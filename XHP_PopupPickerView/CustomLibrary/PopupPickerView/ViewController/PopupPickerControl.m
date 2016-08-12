@@ -92,7 +92,10 @@ static Class _headClass = nil;
     return self;
 }
 
-#pragma mark - UITableViewDataSource
+/**
+ *   UITableViewDataSource
+ *
+ */
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -112,6 +115,10 @@ static Class _headClass = nil;
     return cell;
 }
 
+/**
+ *  UITableViewDelegate
+ *
+ */
 #pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -135,6 +142,9 @@ static Class _headClass = nil;
     [self hideView];
 }
 
+/**
+ *  显示选择视图
+ */
 - (void)showView
 {
     CGRect frame = _baseView.frame;
@@ -144,6 +154,9 @@ static Class _headClass = nil;
     } completion:^(BOOL finished) {}];
 }
 
+/**
+ *  隐藏选择视图
+ */
 - (void)hideView
 {
     CGRect frame = _baseView.frame;
