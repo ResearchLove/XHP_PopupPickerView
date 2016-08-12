@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TestButton.h
 //  XHP_PopupPickerView
 //
-//  Created by xiaohaiping on 16/8/9.
+//  Created by xiaohaiping on 16/8/12.
 //  Copyright © 2016年 HaoHeHealth. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TestButton : UIButton
 
 @end
-
