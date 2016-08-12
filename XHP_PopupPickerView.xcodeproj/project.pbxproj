@@ -21,6 +21,7 @@
 		AAE892F01D5D7CE300E32C82 /* CustomMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE892EF1D5D7CE300E32C82 /* CustomMenuCell.m */; };
 		AAE892F31D5DAD1300E32C82 /* TestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE892F21D5DAD1300E32C82 /* TestButton.m */; };
 		AAE892F61D5DBB4700E32C82 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE892F51D5DBB4700E32C82 /* Image.xcassets */; };
+		AAE892F81D5DBBDA00E32C82 /* 弹出选择视图.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAE892F71D5DBBDA00E32C82 /* 弹出选择视图.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		AAE892F11D5DAD1300E32C82 /* TestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestButton.h; sourceTree = "<group>"; };
 		AAE892F21D5DAD1300E32C82 /* TestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestButton.m; sourceTree = "<group>"; };
 		AAE892F51D5DBB4700E32C82 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		AAE892F71D5DBBDA00E32C82 /* 弹出选择视图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "弹出选择视图.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		AAE892F41D5DBB4700E32C82 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AAE892F71D5DBBDA00E32C82 /* 弹出选择视图.gif */,
 				AAE892F51D5DBB4700E32C82 /* Image.xcassets */,
 			);
 			path = Resources;
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE892F81D5DBBDA00E32C82 /* 弹出选择视图.gif in Resources */,
 				AA7051761D59D7D10000592E /* LaunchScreen.storyboard in Resources */,
 				AAE892F61D5DBB4700E32C82 /* Image.xcassets in Resources */,
 				AA7051731D59D7D10000592E /* Assets.xcassets in Resources */,
