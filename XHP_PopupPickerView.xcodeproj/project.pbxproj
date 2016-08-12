@@ -13,7 +13,6 @@
 		AA7051731D59D7D10000592E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7051721D59D7D10000592E /* Assets.xcassets */; };
 		AA7051761D59D7D10000592E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7051741D59D7D10000592E /* LaunchScreen.storyboard */; };
 		AA7051811D59D7D10000592E /* XHP_PopupPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7051801D59D7D10000592E /* XHP_PopupPickerViewTests.m */; };
-		AA7051A41D59DDEA0000592E /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7051A31D59DDEA0000592E /* Image.xcassets */; };
 		AA7051AA1D59DEC50000592E /* PopupPickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7051A91D59DEC50000592E /* PopupPickerControl.m */; };
 		AA7051B01D59E0860000592E /* PopupPickerMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7051AF1D59E0860000592E /* PopupPickerMenuCell.m */; };
 		AA7051B31D59E0AF0000592E /* PopupPickerMenuHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7051B21D59E0AF0000592E /* PopupPickerMenuHeader.m */; };
@@ -21,6 +20,7 @@
 		AAE892E71D5D7BAD00E32C82 /* CustomMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE892E61D5D7BAD00E32C82 /* CustomMenuModel.m */; };
 		AAE892F01D5D7CE300E32C82 /* CustomMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE892EF1D5D7CE300E32C82 /* CustomMenuCell.m */; };
 		AAE892F31D5DAD1300E32C82 /* TestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE892F21D5DAD1300E32C82 /* TestButton.m */; };
+		AAE892F61D5DBB4700E32C82 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE892F51D5DBB4700E32C82 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		AA70517C1D59D7D10000592E /* XHP_PopupPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHP_PopupPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7051801D59D7D10000592E /* XHP_PopupPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHP_PopupPickerViewTests.m; sourceTree = "<group>"; };
 		AA7051821D59D7D10000592E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7051A31D59DDEA0000592E /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		AA7051A81D59DEC50000592E /* PopupPickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupPickerControl.h; sourceTree = "<group>"; };
 		AA7051A91D59DEC50000592E /* PopupPickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupPickerControl.m; sourceTree = "<group>"; };
 		AA7051AE1D59E0860000592E /* PopupPickerMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupPickerMenuCell.h; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		AAE892EF1D5D7CE300E32C82 /* CustomMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenuCell.m; sourceTree = "<group>"; };
 		AAE892F11D5DAD1300E32C82 /* TestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestButton.h; sourceTree = "<group>"; };
 		AAE892F21D5DAD1300E32C82 /* TestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestButton.m; sourceTree = "<group>"; };
+		AAE892F51D5DBB4700E32C82 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				AA7051691D59D7D00000592E /* AppDelegate.h */,
 				AA70516A1D59D7D10000592E /* AppDelegate.m */,
 				AA7051921D59DC9E0000592E /* CustomLibrary */,
-				AA7051A21D59DDEA0000592E /* Resources */,
+				AAE892F41D5DBB4700E32C82 /* Resources */,
 				AA70516F1D59D7D10000592E /* Main.storyboard */,
 				AA7051721D59D7D10000592E /* Assets.xcassets */,
 				AA7051741D59D7D10000592E /* LaunchScreen.storyboard */,
@@ -171,15 +171,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AA7051A21D59DDEA0000592E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AA7051A31D59DDEA0000592E /* Image.xcassets */,
-			);
-			name = Resources;
-			path = CustomLibrary/Resources;
-			sourceTree = "<group>";
-		};
 		AAE892DF1D5D7B5300E32C82 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +198,14 @@
 				AAE892E31D5D7B5300E32C82 /* ViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AAE892F41D5DBB4700E32C82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAE892F51D5DBB4700E32C82 /* Image.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7051761D59D7D10000592E /* LaunchScreen.storyboard in Resources */,
-				AA7051A41D59DDEA0000592E /* Image.xcassets in Resources */,
+				AAE892F61D5DBB4700E32C82 /* Image.xcassets in Resources */,
 				AA7051731D59D7D10000592E /* Assets.xcassets in Resources */,
 				AA7051711D59D7D10000592E /* Main.storyboard in Resources */,
 			);
